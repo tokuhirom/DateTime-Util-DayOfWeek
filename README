@@ -1,0 +1,32 @@
+NAME
+    DateTime::Util::DayOfWeek - DateTime Day of Week Utilities
+
+SYNOPSIS
+      use DateTime;
+      use DateTime::Util::DayOfWeek;
+      my $dt = DateTime->today;
+      if ($dt->is_sunday) {
+        print "today is sunday";
+      }
+
+DESCRIPTION
+    DateTime::Util::DayOfWeek is day of week utilities for DateTime.
+
+METHODS
+  $dt->is_sunday
+  $dt->is_monday
+  $dt->is_tuesday
+  $dt->is_wednesday
+  $dt->is_thursday
+  $dt->is_friday
+    judgement the day of week.
+
+AUTHOR
+    MATSUNO Tokuhiro <tokuhiro at mobilefactory.jp>
+
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
+SEE ALSO
+    DateTime
+
