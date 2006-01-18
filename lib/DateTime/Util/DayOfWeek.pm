@@ -1,7 +1,7 @@
 package DateTime::Util::DayOfWeek;
 use strict;
 use warnings;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 {
     package DateTime;
@@ -26,27 +26,31 @@ DateTime::Util::DayOfWeek - DateTime Day of Week Utilities
   use DateTime;
   use DateTime::Util::DayOfWeek;
   my $dt = DateTime->today;
-  if ($dt->is_sunday) {
-    print "today is sunday";
-  }
+  print "today is sunday\n" if $dt->is_sunday;
+  # This is equivalent to:
+  print "today is sunday\n" if $dt->is_sunday;
 
 =head1 DESCRIPTION
 
-DateTime::Util::DayOfWeek is day of week utilities for DateTime.
+DateTime::Util::DayOfWeek is day of week utilities for DateTime.This module
+extends is_(sunday|mondy|tuesday|wednesday|thursday|friday) methods to DateTime
+object.
 
 =head1 METHODS
 
-=head2 $dt->is_sunday
+=head2 is_monday
 
-=head2 $dt->is_monday
+=head2 is_tuesday
 
-=head2 $dt->is_tuesday
+=head2 is_wednesday
 
-=head2 $dt->is_wednesday
+=head2 is_thursday
 
-=head2 $dt->is_thursday
+=head2 is_friday
 
-=head2 $dt->is_friday
+=head2 is_saturday
+
+=head2 is_sunday
 
 judgement the day of week.
 
