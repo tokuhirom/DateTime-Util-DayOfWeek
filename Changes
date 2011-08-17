@@ -1,5 +1,9 @@
 Revision history for Perl extension DateTime::Util::DayOfWeek
 
+0.03
+
+    - modernize package
+
 0.02  Wed Jan 18 11:35:34 JST 2006
     - document updated
 
