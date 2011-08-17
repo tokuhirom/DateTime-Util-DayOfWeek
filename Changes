@@ -1,5 +1,9 @@
 Revision history for Perl extension DateTime::Util::DayOfWeek
 
+0.04
+
+    - packaging twekas
+
 0.03
 
     - modernize package

@@ -1,7 +1,7 @@
 package DateTime::Util::DayOfWeek;
 use strict;
 use warnings;
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 {
     package # hide from pause
