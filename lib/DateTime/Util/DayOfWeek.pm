@@ -2,6 +2,7 @@ package DateTime::Util::DayOfWeek;
 use strict;
 use warnings;
 our $VERSION = '0.04';
+use 5.008001;
 
 {
     package # hide from pause
@@ -69,5 +70,12 @@ Tatsuhiko Miyagawa, and #catalyst-ja members.
 =head1 DEPENDENCIES
 
 L<DateTime>
+
+=head1 LICENSE
+
+Copyright (C) Tokuhiro Matsuno
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
 
 =cut

@@ -3,3 +3,5 @@ blib/
 pm_to_blib
 *.bak
 *.old
+MYMETA.*
+DateTime-Util-DayOfWeek-*/
